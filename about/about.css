@@ -1,0 +1,114 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about{
+    border: 1px solid black;
+    width: 80vw;
+    padding: 100px;
+    margin-top: 10px;
+    border-style: none;
+    
+}
+
+
+
+
+
+  .jack{
+    font-size: 4em;
+    text-decoration: line-through;
+    text-indent: 20px;
+    
+}
+
+.jack a{
+    color: white;
+    text-decoration: none;
+}
+
+.jack a::hover{
+    color: white;
+}
+.navi{
+    border: 1px solid black;
+    border-style: none;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    background-color: #48CFCB;
+    color: white;
+   position: fixed;
+   top: 0px;
+   
+    }
+    
+    
+    .list ul{
+   display: flex;
+}
+
+.list ul li{
+    padding: 18px;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+    
+    text-decoration: none;
+    
+}
+
+.list ul li a:hover{
+    color: black;
+}
+
+.list ul li a{
+    color: black;
+    text-decoration: none;
+}   
+
+.footer{
+   border: 1px solid black;
+   width: 100vw;
+   height: 90px;
+   text-align: center;
+   align-content: center;
+   background-color: #424242;   
+   color: white;
+}
+
+.ladies2{
+ position: absolute;
+ top: 12px;
+ right: 118px;
+}
+
+a{
+    font-weight: bold;
+}
+
+.bbc{
+              border: 1px solid black;
+              width: 100vw;
+              height: 90px;
+              background-color: #424242;
+              color: white;
+              text-align: center;
+              align-content: center;
+              display: flex;
+             align-items: center;
+             justify-content: center;
+             column-gap: 40px;
+             
+          }
+          
+          .bbc d{
+              font-size: 20px;
+              font-weight: bold;
+          }
+          

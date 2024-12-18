@@ -1,0 +1,157 @@
+﻿*{
+     margin: 0px;
+     padding: 0px;
+     
+ }
+ 
+ *::selection{
+     background-color: black;
+     color: aqua;
+ }
+ 
+ 
+ .jack{
+    font-size: 4em;
+    text-decoration: line-through;
+    text-indent: 20px;
+}
+
+.navi{
+    border: 1px solid black;
+    border-style: none;
+    width: 100vw;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    position: fixed;
+    background-color: #48CFCB;
+    color: white;
+   
+    }
+    
+    .jack a::hover{
+        color: white;
+    }
+    .jack a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .list ul{
+   display: flex;
+}
+
+.list ul li{
+    padding: 18px;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;  
+   text-decoration: none;
+    
+}
+
+.list ul li a:hover{
+    color: black;
+}
+
+.list ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.ladies2{
+ position: absolute;
+ top: 16px;
+ right: 118px;
+}
+
+a{
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+
+
+.images{
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    
+}
+
+.head{
+    margin-top: 100px;
+}
+
+main{
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+h3{
+    color: #7a1f32;
+    font-size: 50px;
+    text-indent: 30px;
+}
+
+h2{
+    color: grey;
+    font-size: 46px;
+}
+
+p{
+    font-size: 24px;
+    color: #696969a5;
+}
+h4{
+    font-size: 39px;
+    color: black;
+}
+
+button{
+    font-size: 40px;
+    padding: 15px 15px;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #2596be;
+    color: white;
+    font-weight: bold;
+   }
+
+.cst h3{
+    color: grey;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.p p{
+    color: black;
+    font-size: 15px;
+    font-weight: bold; 
+    text-indent: 30px;
+}
+
+     
+   .bbc{
+              border: 1px solid black;
+              width: 100vw;
+              height: 90px;
+              background-color: #424242;
+              color: white;
+              text-align: center;
+              align-content: center;
+              display: flex;
+             align-items: center;
+             justify-content: center;
+             column-gap: 40px;
+             
+          }
+          
+          .bbc d{
+              font-size: 20px;
+              font-weight: bold;
+          }
+          
